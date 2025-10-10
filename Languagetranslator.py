@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_KEY = "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"
+API_KEY = "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"
 API_URL = "https://api-inference.huggingface.co/models/facebook/mbart-large-50-many-to-many-mmt"
 HEADERS = {"Authorization": f"Bearer {API_KEY}"}
 
@@ -106,3 +106,4 @@ if st.button("🔁 Translate"):
 
 st.markdown("---")
 st.caption("Created by Muhammad Talha ✨")
+
